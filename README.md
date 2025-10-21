@@ -8,6 +8,7 @@ This project is a part of UC Berkeley's CS61A: Structure and Interpretation of C
 Since a lot of my implementations are scattered I will briefly state what I did. Planning to do Extra Challenges # 1 - 4 in the future 
 
 ***IMPLEMENTATIONS***
+
 _Problem 1_: Overrided class attributes for 'HarvesterAnt' and 'ThrowerAnt' Class and programmed 'action' method for 'HarvesterAnt' Class 
 
 _Problem 2_: Programmed Place.'init' to track the entrance of each 'Place' instance
