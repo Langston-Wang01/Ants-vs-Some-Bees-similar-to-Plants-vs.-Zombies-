@@ -8,17 +8,30 @@ This project is a part of UC Berkeley's CS61A: Structure and Interpretation of C
 Since a lot of my implementations are scattered I will briefly state what I did. Planning to do Extra Challenges # 1 - 4 in the future 
 
 ***IMPLEMENTATIONS***
-_Problem 1_: Overrided class attributes for 'HarvesterAnt' and 'ThrowerAnt' Class and              programmed 'action' method for 'HarvesterAnt' Class 
-_Problem 2_: Programmed Place.'init' to track the entrance of each 'Place' instance 
-_Problem 3_: Implemented 'nearest_bee' method for ThrowerAnt Class to throw leaves at              nearest ant
-_Problem 4_: Implemented two subclasses of 'ThrowerAnt': 'LongThrower','ShortThrower'              by updating 'nearest_bee' method to check for bounds (throwing range)
-_Problem 5_: Overrided the 'reduce_health' method in 'FireAnt' inclduing its                       reflective damage logic: Deals damage if hurt AND deals damage if killed
+_Problem 1_: Overrided class attributes for 'HarvesterAnt' and 'ThrowerAnt' Class and programmed 'action' method for 'HarvesterAnt' Class 
+
+_Problem 2_: Programmed Place.'init' to track the entrance of each 'Place' instance
+
+_Problem 3_: Implemented 'nearest_bee' method for ThrowerAnt Class to throw leaves at nearest ant
+
+_Problem 4_: Implemented two subclasses of 'ThrowerAnt': 'LongThrower','ShortThrower' by updating 'nearest_bee' method to check for bounds                      (throwing range)
+
+_Problem 5_: Overrided the 'reduce_health' method in 'FireAnt' inclduing its reflective damage logic: Deals damage if hurt AND deals damage if                  killed
+
 _Problem 6_: Implemented 'WallAnt' class from scratch
+
 _Problem 7_: Implemented 'HungryAnt' class from scratch, includes a 'action' method
-_Problem 8a_: Implemented 'store_ant" method, 'action' method, and 'can_contain'                    method in 'ContainerAnt' Class
-_Problem 8b_: Modified 'add_to' method in 'Ant' Class to allow a container and its                  contained ant to occupy the same place based on some rules.
-_Problem 8c_: Implemented 'ProtecterAnt' class, added a 'init' that inherits from                   'ContainerAnt' Class
+
+_Problem 8a_: Implemented 'store_ant" method, 'action' method, and 'can_contain' method in 'ContainerAnt' Class
+
+_Problem 8b_: Modified 'add_to' method in 'Ant' Class to allow a container and its contained ant to occupy the same place based on some rules.
+
+_Problem 8c_: Implemented 'ProtecterAnt' class, added a 'init' that inherits from 'ContainerAnt' Class
+
 _Problem 9_: Implemented 'TankAnt' class from scratch, includes an 'action' method
-_Problem 10_: Created a new type of 'Place' called Water. Allows waterproof insects                 to stay on water, but kills any insect that isn't waterproof.
+
+_Problem 10_: Created a new type of 'Place' called Water. Allows waterproof insects to stay on water, but kills any insect that isn't waterproof.
+
 _Problem 11_: Implemented 'ScubraThrower' class from scratch
-_Problem 12_: Implemented the 'QueenAnt' class from scratch, includes an 'action' and               'reduce_health' method. Also created a 'double' method in Ant Class to                 use for Problem 12. 
+
+_Problem 12_: Implemented the 'QueenAnt' class from scratch, includes an 'action' and 'reduce_health' method. Also created a 'double' method in                  Ant Class to use for Problem 12. 
